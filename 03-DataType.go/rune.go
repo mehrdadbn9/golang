@@ -12,7 +12,6 @@ func main() {
 	char3 := 128525
 
 	fmt.Printf("char1: %d %T\n", char1, char1)
-
 	fmt.Printf("char1: %d %T\n", char2, char2)
 	fmt.Printf("char1: %c %T\n", char3, char3)
 
