@@ -5,7 +5,7 @@ import "fmt"
 func main() {
 	i, j := 20, 40
 
-	var ip *int = &i
+	var ip int = &i
 	var jp *int = &j
 
 	fmt.Println("Address of i:", &i)
